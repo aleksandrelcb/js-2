@@ -4,10 +4,10 @@ const massiveNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const elementCount = massiveNumber.length;
 console.log(elementCount, "Number of arrays");
 
-const abc = massiveNumber.map((i) => (x += i), (x = 0)).reverse()[0];
-console.log(abc, "sum");
+const addingNumber = massiveNumber.map((i) => (x += i), (x = 0)).reverse()[0];
+console.log(addingNumber, "sum");
 
-const elementDivision = abc / elementCount;
+const elementDivision = addingNumber / elementCount;
 console.log(elementDivision, "division");
 
 // 2
@@ -37,6 +37,7 @@ const elementObject = [
     age: "11",
   },
 ];
+console.log(elementObject, "user info");
 
 // 3
 
@@ -48,6 +49,8 @@ const ProductName = {
   productMemoryInGB: 128,
   productResolution: "1290 x 2796 pixels,",
 };
+
+// console.log(ProductName);
 
 console.log("Product name is", ProductName["productTitle"]);
 console.log("Product price is", ProductName["productPrice"]);
